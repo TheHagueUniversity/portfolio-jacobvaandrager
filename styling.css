@@ -1,27 +1,55 @@
+
+
+
 /* Body
 ------------------------------------*/
 body {
    
     background: grey;
-
+    
+        
 }
 
-
+.border {
+  position: fixed;
+  top: 0;
+  left: 0;
+  border: 12px solid #000;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 /* Header
 ------------------------------------*/
 .header {
     background: white;
+    border-color: white;
+    border-radius: 30px;
+    padding: 0;
+
   }
 
 .header .btn {
 text-decoration: none;
 color: black;
-padding: 10px;
+padding: 20px;
 border-radius: 20px;
 font-size: 30px;
   }
 
+  .header .btn:hover {
+   color: purple;
+  }
+
+ .header .position {
+    position: absolute;
+    top: 2%;
+    left: 1%;
+   
+  }
 
 /* Home
 ------------------------------------*/
@@ -39,38 +67,88 @@ font-size: 30px;
   }
 
 .home .btn1 {
-    color: #E3E36A;
-    background: #881600;
+    
     text-decoration: none;
     padding: 32px 32px;
     border-radius: 4px;
     position: absolute;
-    width: 70px;
+    width: 50px;
+    height: 50px;
     top: 10%; left: 90%;
   }
 
-  .home .btn1:hover {
-    background: rgba(193, 98, 0, 1);
-  }
-
   .home .btn2 {
-    color: #E3E36A;
-    background: #881600;
+   
     text-decoration: none;
     padding: 32px 32px;
-    width: 70px;
+    width: 50px;
+    height: 50px;
     border-radius: 4px;
     position: absolute;
-    top: 20%; left: 90%;
+    top: 25%; left: 90%;
   }
 
   .home .btn3 {
-    color: #E3E36A;
-    background: #881600;
+ 
     text-decoration: none;
     padding: 32px 32px;
     border-radius: 4px;
-    width: 70px;
+    width: 50px;
+    height: 50px;
     position: absolute;
-    top: 30%; left: 90%;
+    top: 40%; left: 90%;
+  }
+
+  .home .btn4 {
+    
+    text-decoration: none;
+    padding: 32px 32px;
+    border-radius: 4px;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 55%; left: 90%;
+  }
+
+  .home .btn5 {
+   
+    text-decoration: none;
+    padding: 32px 32px;
+    border-radius: 4px;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 70%; left: 90%;
+  }
+
+  .fixposition1 {
+    position: absolute;
+    top: 10%;
+    left: 90%;
+   
+  }
+
+  .fixposition2 {
+    position: absolute;
+    top: 10%;
+    left: 40%;
+   
+  }
+
+  .fixposition3 {
+    position: absolute;
+    top: 30%;
+    left: 1%;
+   
+  }
+
+  /* Home
+------------------------------------*/
+  .window {
+
+    width: 300px;
+    height: 100px;
+    border: 1px solid blue; 
+
+
   }
