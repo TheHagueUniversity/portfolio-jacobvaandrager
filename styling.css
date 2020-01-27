@@ -1,6 +1,76 @@
-* { 
-    padding: 0;
+/* Body
+------------------------------------*/
+body {
+   
+    background: grey;
+
+}
+
+
+
+/* Header
+------------------------------------*/
+.header {
+    background: white;
+  }
+
+.header .btn {
+text-decoration: none;
+color: black;
+padding: 10px;
+border-radius: 20px;
+font-size: 30px;
+  }
+
+
+/* Home
+------------------------------------*/
+.home {
     margin: 0;
-    box-sizing: border-box;
-    background: black;
-  }  
+    padding: 0;
+    /* ADD DESKTOP BACKGROUND PIC*/
+  }
+
+.home .image {
+
+    position: absolute;
+    top: 10%; left: 90%;
+
+  }
+
+.home .btn1 {
+    color: #E3E36A;
+    background: #881600;
+    text-decoration: none;
+    padding: 32px 32px;
+    border-radius: 4px;
+    position: absolute;
+    width: 70px;
+    top: 10%; left: 90%;
+  }
+
+  .home .btn1:hover {
+    background: rgba(193, 98, 0, 1);
+  }
+
+  .home .btn2 {
+    color: #E3E36A;
+    background: #881600;
+    text-decoration: none;
+    padding: 32px 32px;
+    width: 70px;
+    border-radius: 4px;
+    position: absolute;
+    top: 20%; left: 90%;
+  }
+
+  .home .btn3 {
+    color: #E3E36A;
+    background: #881600;
+    text-decoration: none;
+    padding: 32px 32px;
+    border-radius: 4px;
+    width: 70px;
+    position: absolute;
+    top: 30%; left: 90%;
+  }
