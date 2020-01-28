@@ -6,7 +6,10 @@
 body {
    
     background: grey;
-    
+    background-image: url("macos2.jpg");
+    background-repeat: no-repeat;
+ 
+  background-size: cover;
         
 }
 
@@ -139,6 +142,27 @@ font-size: 30px;
     position: absolute;
     top: 30%;
     left: 1%;
+   
+  }
+
+  .fixposition4 {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+   
+  }
+
+  .fixposition5 {
+    position: absolute;
+    top: 15%;
+    left: 25%;
+   
+  }
+
+  .fixposition6 {
+    position: absolute;
+    top: 5%;
+    left: 10%;
    
   }
 
