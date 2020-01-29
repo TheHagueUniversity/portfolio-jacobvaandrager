@@ -1,14 +1,14 @@
 /* Body
 ------------------------------------*/
 body {
-   
-    background: grey;
+
     background-image: url("macos2.jpg");
     background-repeat: no-repeat;
- 
-  background-size: cover;
+    background-size: cover;
+
         
 }
+
 
 .border {
   position: fixed;
@@ -172,6 +172,16 @@ font-size: 30px;
     top: 8%; left: 6.25%;
   }
 
+  .backbutton:hover .x-button{
+    position: absolute;
+    opacity: 1;
+    top: -14.5px;
+    left: 4.5px;
+  color: white;
+  font-family: sans-serif;
+
+}
+
 
 /* Home
 ------------------------------------*/
@@ -237,11 +247,10 @@ font-size: 30px;
     text-decoration: none;
     padding: 32px 32px;
     border-radius: 4px;
-    background: black;
     width: 50px;
     height: 50px;
     position: absolute;
-    top: 70%; left: 90%;
+    top: 68%; left: 90%;
   }
 
 
@@ -321,6 +330,20 @@ font-size: 30px;
     top: 15.25%; left: 25.2%;
   }
 
+  .x-button{
+    opacity: 0;
+  }
+  .backbuttoneducation:hover .x-button{
+      position: absolute;
+      opacity: 1;
+      top: -16px;
+      left: 6.5px;
+    color: white;
+    font-family: sans-serif;
+
+  }
+  
+
   .backbuttoncontact {
     
     text-decoration: none;
@@ -331,6 +354,17 @@ font-size: 30px;
     height: 3px;
     top: 24.4%; left: 16.3%;
   }
+ 
+  .backbuttoncontact:hover .x-button{
+    position: absolute;
+    opacity: 1;
+    top: -16px;
+    left: 5px;
+  color: white;
+  font-family: sans-serif;
+
+}
+
 
   .backbuttonwork {
     
@@ -343,6 +377,16 @@ font-size: 30px;
     top: 17.4%; left: 20.2%;
   }
 
+  .backbuttonwork:hover .x-button{
+    position: absolute;
+    opacity: 1;
+    top: -17px;
+    left: 5px;
+  color: white;
+  font-family: sans-serif;
+
+}
+
   .backbuttonprojects {
     
     text-decoration: none;
@@ -353,6 +397,16 @@ font-size: 30px;
     height: 3px;
     top: 15.4%; left: 25.3%;
   }
+
+  .backbuttonprojects:hover .x-button{
+    position: absolute;
+    opacity: 1;
+    top: -16px;
+    left: 5px;
+  color: white;
+  font-family: sans-serif;
+
+}
 
 
 
