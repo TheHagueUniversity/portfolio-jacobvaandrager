@@ -196,7 +196,7 @@ font-size: 30px;
     height: 50px;
     border-radius: 4px;
     position: absolute;
-    top: 25%; left: 90%;
+    top: 23%; left: 90%;
   }
 
   .home .btn3 {
@@ -207,7 +207,7 @@ font-size: 30px;
     width: 50px;
     height: 50px;
     position: absolute;
-    top: 40%; left: 90%;
+    top: 36%; left: 90%;
   }
 
   .home .btn4 {
@@ -218,7 +218,7 @@ font-size: 30px;
     width: 50px;
     height: 50px;
     position: absolute;
-    top: 55%; left: 90%;
+    top: 49.5%; left: 90%;
   }
 
   .home .btn5 {
@@ -229,7 +229,19 @@ font-size: 30px;
     width: 50px;
     height: 50px;
     position: absolute;
-    top: 68%; left: 90%;
+    top: 62.5%; left: 90%;
+  }
+
+  .home .btn6 {
+
+    text-decoration: none;
+    padding: 32px 32px;
+    border-radius: 4px;
+    width: 50px;
+    height: 50px;
+    background: black;
+    position: absolute;
+    top: 76%; left: 90%;
   }
 
 
@@ -384,6 +396,27 @@ font-size: 30px;
     left: 5px;
   color: white;
   font-family: sans-serif;
+}
+
+.backbuttonskills {
+    
+  text-decoration: none;
+  padding: 8px 8px;
+  border-radius: 4px;
+
+  position: absolute;
+  width: 3px;
+  height: 3px;
+  top: 30.2%; left: 1.3%;
+}
+
+.backbuttonskills:hover .x-button{
+  position: absolute;
+  opacity: 1;
+  top: -16px;
+  left: 5px;
+color: white;
+font-family: sans-serif;
 
 }
 
