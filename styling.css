@@ -2,7 +2,7 @@
 ------------------------------------*/
 body {
 
-    background-image: url("macos2.jpg");
+    background-image: url("macos3.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -239,9 +239,8 @@ font-size: 30px;
     border-radius: 4px;
     width: 50px;
     height: 50px;
-    background: black;
     position: absolute;
-    top: 76%; left: 90%;
+    top: 80%; left: 90%;
   }
 
 
