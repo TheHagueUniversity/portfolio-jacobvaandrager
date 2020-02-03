@@ -37,7 +37,6 @@ font-size: 30px;
    
   }
 
-
 /* Contact
 ------------------------------------*/
 
@@ -177,71 +176,6 @@ font-size: 30px;
 
   }
 
-.home .btn1 {
-    
-    text-decoration: none;
-    padding: 32px 32px;
-    border-radius: 4px;
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    top: 10%; left: 90%;
-  }
-
-  .home .btn2 {
-   
-    text-decoration: none;
-    padding: 32px 32px;
-    width: 50px;
-    height: 50px;
-    border-radius: 4px;
-    position: absolute;
-    top: 23%; left: 90%;
-  }
-
-  .home .btn3 {
- 
-    text-decoration: none;
-    padding: 32px 32px;
-    border-radius: 4px;
-    width: 50px;
-    height: 50px;
-    position: absolute;
-    top: 36%; left: 90%;
-  }
-
-  .home .btn4 {
-    
-    text-decoration: none;
-    padding: 32px 32px;
-    border-radius: 4px;
-    width: 50px;
-    height: 50px;
-    position: absolute;
-    top: 49.5%; left: 90%;
-  }
-
-  .home .btn5 {
-   
-    text-decoration: none;
-    padding: 32px 32px;
-    border-radius: 4px;
-    width: 50px;
-    height: 50px;
-    position: absolute;
-    top: 62.5%; left: 90%;
-  }
-
-  .home .btn6 {
-
-    text-decoration: none;
-    padding: 32px 32px;
-    border-radius: 4px;
-    width: 50px;
-    height: 50px;
-    position: absolute;
-    top: 80%; left: 90%;
-  }
 
 
   /* Positions
@@ -249,8 +183,9 @@ font-size: 30px;
 
   .fixposition1 {
     position: absolute;
-    top: 10%;
+    top: 5%;
     left: 90%;
+    float: right;
    
   }
 
